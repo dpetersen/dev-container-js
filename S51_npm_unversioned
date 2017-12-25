@@ -1,0 +1,7 @@
+export NODE_ENV="development"
+export NPM_CONFIG_PREFIX="~/.npm-global"
+export DISPLAY=:99.0
+
+if [[ -z $TMUX ]]; then
+        export PATH="$HOME/.npm-global/bin:$PATH"
+fi
